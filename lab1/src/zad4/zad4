@@ -1,0 +1,32 @@
+Wczytać tekst z pliku {user.home}/textforwords.txt i policzyć liczbę wsytąpień poszczególnych słów.
+Do zliczania wystąpień przygotować klasę CountWords w taki sposób, aby następujący program, zapisany w pliku Main.java:
+
+      import java.util.*;
+  
+      public class Main {
+  
+        public static void main(String[] args) throws Exception {
+          String fname = System.getProperty("user.home") + "/textforwords.txt";
+          CountWords cw = new CountWords(fname);
+          List<String> result = cw.getResult();
+          for (String wordRes : result) {
+            System.out.println(wordRes);
+          }
+        }
+      }
+wyprowadził w kolejnych wierszach kolejne słowa (w kolejności ich występowania w pliku)  z następującą po spacji liczbą ich wystąpień.
+
+Na przykład dla tekstu z pliku:
+
+abc def abc ghi  def
+
+na konsoli winniśmy zobaczyć następujące wiersze:
+
+abc 2
+def 2
+ghi 1
+
+Uwagi:
+Pliku Main.java nie wolno modyfikować.
+Nazwa i umiejscowienie (katalog) pliku z tekstem są obowiązkowe
+Słowa - to ciągi znaków rozdzielone białymi znakami i/lub znakami interpunkcji

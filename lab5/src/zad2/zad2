@@ -1,0 +1,14 @@
+Napisać program pozwalający na przeglądaniu dowolnych obrazków w formacie gif, jpg lub png z podanego katalogu.
+Obrazki są kolejno pokazywane w tym samym oknie, przy czym:
+- czas wyświetlania jednego obrazka (w sekundach) jest podany na starcie programu,
+- obrazki pokazywane są w ich oryginalnych wielkościach,
+- zmiany rozmiarów obszaru wykreślania reskalują obrazek,
+- po zakończeniu wyświetlania wszystkich obrazków w oknie ukazuje się napis "Koniec prezentacji".
+- rozmiar pisma dla napisu ustalany jest na starcie programu,
+- napis ma być wyśrodkowany w obszarze wyświetlania w poziomie i w pionie.
+
+Dane (katalog, czas wyświetlania jednego obrazka, rozmiar pisma) podajemy  jako argumenty programu.
+Jeśli obrazka nie udało się załadować (brak lub błąd) w oknie wyświetlany jest napis "Brak obrazka".
+
+Uwaga: za wykonanie zadania bez spełnienia w/w wymagań można dostać najwyżej 3 punkty.
+Punktacja powyżej 3 przyznawana jest tylko przy spełnieniu wszystkich wymagań i zależy od sposobu oprogramowania.

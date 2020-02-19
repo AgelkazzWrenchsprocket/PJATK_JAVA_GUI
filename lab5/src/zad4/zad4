@@ -1,0 +1,10 @@
+Pięć przycisków z napisami "Przycisk 1", "P 2", "Większy przycisk numer 3", "Przycisk 4", "P5" pokazać w oknie:
+- w układzie BorderLayou
+- w układzie FlowLayout
+- w układzie FlowLayout z wyrównaniem do lewej
+- w układzie FlowLayout z wyrównaniem do prawej
+- w układzie GridLayout jako jeden wiersz
+- w układzie GridLayout jako jedną kolumnę
+- w układzie GridLayout jako tablice (3, 2)
+
+Proszę napisać to jako jedną aplikację, w której sposób układania komponentów określany jest w dialogu wejściowym poprzez podanie odpowiedniej litery (A-G)
